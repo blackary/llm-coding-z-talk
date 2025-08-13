@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: accounts
+    columns:
+      - name: name
+        tests: [not_null]
+      - name: id
+        tests: [not_null]
+      - name: owner
+        tests: [not_null]
+  - name: users
+    columns:
+      - name: name
+        tests: [not_null]
+      - name: id
+        tests: [not_null]
+      - name: email
+        tests: [not_null]
+      - name: account_id
+        tests: [not_null]
+  - name: organizations
+    columns:
+      - name: name
+        tests: [not_null]
+      - name: id
+        tests: [not_null]
