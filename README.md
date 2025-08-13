@@ -2,10 +2,72 @@
 marp: true
 title: LLM Coding Z Talk
 paginate: true
-theme: default
-class: lead
+size: 16:9
+theme: gaia
 footer: LLM Coding Z Talk, 2025-08-13
+style: |
+  section {
+    font-size: 34px;
+    line-height: 1.35;
+  }
+  h1, h2, h3 {
+    color: #0f172a;
+    letter-spacing: -0.01em;
+  }
+  h1 {
+    font-size: 72px;
+    margin-bottom: 0.2em;
+  }
+  h2 {
+    font-size: 46px;
+    margin-bottom: 0.4em;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.2em;
+  }
+  a {
+    color: #0369a1;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  li {
+    margin: 0.25em 0;
+  }
+  section.lead h1 {
+    font-size: 88px;
+    color: #ffffff;
+  }
+  section.lead p, section.lead a {
+    font-size: 30px;
+    color: #e2e8f0;
+  }
+  section.lead {
+    background: radial-gradient(1200px 600px at 20% 20%, #0ea5e9 0%, transparent 60%),
+                radial-gradient(1000px 500px at 80% 10%, #22d3ee 0%, transparent 55%),
+                linear-gradient(160deg, #0b1020 0%, #111827 60%, #0b1020 100%);
+    color: #e2e8f0;
+  }
+  section.lead footer {
+    display: none;
+  }
+  section:not(.lead) {
+    background: #ffffff;
+    color: #0f172a;
+  }
+  footer {
+    color: #64748b;
+    font-size: 18px;
+  }
+  .marp-pagination {
+    color: #64748b;
+    font-weight: 600;
+  }
 ---
+
+<!-- _class: lead -->
+<!-- _paginate: skip -->
 
 # LLM Coding Z Talk
 
@@ -147,6 +209,7 @@ Today's Top Models
 
 
 ---
+<!-- _paginate: skip -->
 
 ## Q&A
 
